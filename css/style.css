@@ -1,0 +1,55 @@
+body{
+	background-color:white;
+	font-family: Arial, sans-serif;
+}
+
+a{
+	color: blue;
+	text-decoration: none;
+	display:inline;
+	background-color: white;
+	/* color: black; */
+}
+
+p {
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.comprice_h1{
+	box-sizing: border-box;
+	color: cornflowerblue;
+	display: block;
+	float: none;
+	line-height: 22px;
+	position: relative;
+}
+
+.save_h2{
+	font-size: 2.5rem;
+	line-height: 3.0rem;
+}
+
+.index_img{
+	display: inline-block;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.current{
+	text-transform: uppercase;
+	text-decoration-line: underline;
+	color: black;
+}
+
+a.skip{
+	position: absolute;
+	left: -99999px;
+	top: 0px;
+}
+
+a.skip:focus{
+	position: relative;
+	left: 0px;
+}
